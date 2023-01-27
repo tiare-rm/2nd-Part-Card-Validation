@@ -9,7 +9,7 @@
 
 ## 1. Preámbulo del Proyecto
 
-El siquiente proyecto de desarrollo web, contempra el aprender y usar herramientas variadas en relación al uso de funciones, parametros, objetos, algoritmo de Luhn, entre otras. La importancia de trabajar con estas caracteristicas técnicas es el aprendizaje basado en el ámbito profesional, cumpliendo con sprints semanales para una entrega oportuna de los proyectos. 
+El siquiente proyecto de desarrollo web, contempla el aprender y usar herramientas variadas en relación al uso de funciones, parametros, objetos, algoritmo de Luhn, entre otras. La importancia de trabajar con estas caracteristicas técnicas es el aprendizaje basado en el ámbito profesional, cumpliendo con sprints semanales para una entrega oportuna de los proyectos. 
 
 El siguiente repositorio contempla codigos y fundamentos de HTML, CSS y JAVASCRIPT. 
 
