@@ -1,0 +1,58 @@
+header {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(117, 5, 117);
+    justify-content: space-evenly;
+    text-align: left;
+    width: 100%;
+    font-size: xx-large;
+    font-weight: bold;
+    margin: 110px;
+}
+
+body {
+    background-image: url("./Imagenes/fondofinal.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.center {
+    margin: auto;
+    width: 60%;
+    padding: 20px;
+}
+
+button {
+    font-family: "dosis";
+    font-size: larger;
+    font-weight: 500;
+    text-transform: uppercase;
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    width: 30%;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+fieldset {
+    border: 2px solid rgb(255, 232, 57);
+    width: 500px;
+    margin: auto;
+    text-align: center;
+}
+
+form {
+    text-align: center;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: large;
+    background-color: #1c7f97;
+}
+
