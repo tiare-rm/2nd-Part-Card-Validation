@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <title>Tarjeta de crédito válida</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="center">
+    <header>
+      <nav>
+        <br>
+        <a target="_blank"
+          href="https://drive.google.com/file/d/1b5DNNg-GFEclLPE2TrF1_4Mwk4V3JKh_/view?usp=sharing">Revisa aquí el
+          Catálogo de Servicios</a>
+      </nav>
+    </header>
+  </div>
+
+    <main class="forms-container">
+      <!--contendrá los formularios de la tarjeta de crédito-->
+      <form action="proceso de pago">
+        <fieldset>
+          <fieldset class="card-holder">
+            <label for="card-nombre">Nombre y Apellidos</label>
+            <input placeholder="Harry Potter Gonzalez" type="text" required />
+          </fieldset>
+          <fieldset class="numerotarjeta">
+            <label for="tarjeta">Ingrese número tarjeta</label>
+            <input type="text" id="cardnumber" maxlength="16" placeholder="0000 0000 0000 0000"
+              onkeypress="if (KeyboardEvent.keyCode < 45 || KeyboardEvent.keyCode > 57) event.preventDefault = false;" />
+          </fieldset>
+
+          <fieldset class="card-expiration">
+            <div class="meses-cvv">
+              <div class="meses-expiracion">
+                <label for="month">Mes de Vencimiento</label>
+                <select id="month" name="month">
+                  <option selected>01 Enero</option>
+                  <option>02 Febrero</option>
+                  <option>03 Marzo</option>
+                  <option>04 Abril</option>
+                  <option>05 Mayo</option>
+                  <option>06 Junio</option>
+                  <option>07 Julio</option>
+                  <option>08 Agosto</option>
+                  <option>09 Septiembre</option>
+                  <option>10 Octubre</option>
+                  <option>11 Noviembre</option>
+                  <option>12 Diciembre</option>
+                </select>
+<br>
+                <label for="year">Año de Vencimiento</label>
+                <select id="year" name="year">
+                  <option selected>2023</option>
+                  <option>2024</option>
+                  <option>2025</option>
+                  <option>2026</option>
+                  <option>2027</option>
+                </select>
+
+                <div class="ccv">
+                  <label for="ccv">Código verificación</label>
+                  <input type="number" minlength="3" maxlength="3" required />
+                </div>
+              </div>
+
+              <button id="botonvalidar">Validar</button>
+              <div id="result"></div>
+
+            </div>
+          </fieldset>
+        </fieldset>
+      </form>
+    </main>
+
+    <br>
+    <footer>
+      <br>
+      <div class="ig">
+        <a target="_blank" href="https://www.instagram.com/astroolunar/">Contáctame aqui por Redes Sociales</a>
+      </div>
+      <br>
+      <div class="whatsapp">
+        <a target="_blank" href="https://wa.me/961406590">o aquí al WhatsApp</a>
+      </div>
+      <br>
+      <p>Copyright 2023</p>
+    </footer>
+
+    <script src="index.js" type="module"></script>
+</body>
+
+</html>
